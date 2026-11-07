@@ -353,7 +353,7 @@ sequenceDiagram
 
 ### Where to start
 
-- **Docs & Wiki (online)** — [Documentation](https://ai-supervisor-foundry.github.io/site/docs/introduction) and [Wiki](https://ai-supervisor-foundry.github.io/site/wiki/overview) at [ai-supervisor-foundry.github.io/site](https://ai-supervisor-foundry.github.io/site/). The static site is built and published from the [site](https://github.com/ai-supervisor-foundry/site) repo; no local copy is kept in this repo.
+- **Docs & Wiki (online)** — [Documentation](https://bifrost5.com/docs/docs/introduction) and [Wiki](https://bifrost5.com/docs/wiki/overview) at [bifrost5.com/docs](https://bifrost5.com/docs/). They are served as part of the Bifrost5 site.
 - **Supervisor context (single source of truth)** — [supervisor-contexts/README.md](supervisor-contexts/README.md) and the [context index](supervisor-contexts/CONTEXT.md) with quick links to overview, architecture, control loop, validation, usage, and configuration.
 - **Plans & design** — [docs/plans/](docs/plans/) for architecture proposals, functional test plans, and implementation notes.
 - **Tests** — [tests/README.md](tests/README.md) for unit and functional test coverage and how to run them.
