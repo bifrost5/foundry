@@ -4,7 +4,7 @@ module.exports = {
       name: 'supervisor',
       script: 'npm',
       args: 'run cli -- start --redis-host localhost --redis-port 6499 --state-key supervisor:state --queue-name tasks --queue-db 2 --sandbox-root ./sandbox',
-      cwd: '/home/ahmedhaider/work/projects/auto-layer/supervisor',
+      cwd: __dirname,
       instances: 1,
       exec_mode: 'fork',
       autorestart: false,  // DO NOT auto-restart - operator controls lifecycle via halt/resume/start commands
